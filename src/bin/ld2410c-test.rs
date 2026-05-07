@@ -3,8 +3,8 @@
 
 #[path = "../fmt.rs"]
 mod fmt;
-#[path = "../ld2410c.rs"]
-mod ld2410c;
+
+use ld2410c::{Ld2410c, UartReader};
 
 use crate::fmt::warn;
 #[cfg(not(feature = "defmt"))]
@@ -20,7 +20,6 @@ use embassy_stm32::{
 };
 
 use fmt::info;
-use ld2410c::{Ld2410c, UartReader};
 
 bind_interrupts!(struct Irqs {
     USART1 => usart::InterruptHandler<peripherals::USART1>;

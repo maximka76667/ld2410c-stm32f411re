@@ -592,6 +592,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b9e0384b61958566e926dc50660321d12159025e767c18e043daf26b70104c39"
 
 [[package]]
+name = "ld2410c"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "62c83ee3af7d1e51c8ea3dac4f0f7204f3913811d88092bf05c69d6c00a22fee"
+
+[[package]]
 name = "ld2410c_stm32f411re"
 version = "0.1.0"
 dependencies = [
@@ -604,6 +610,7 @@ dependencies = [
  "embassy-stm32",
  "embassy-sync",
  "embassy-time",
+ "ld2410c",
  "panic-halt",
  "panic-probe",
 ]
