@@ -593,9 +593,9 @@ checksum = "b9e0384b61958566e926dc50660321d12159025e767c18e043daf26b70104c39"
 
 [[package]]
 name = "ld2410c"
-version = "0.1.0"
+version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "62c83ee3af7d1e51c8ea3dac4f0f7204f3913811d88092bf05c69d6c00a22fee"
+checksum = "d3a7020c6709a9530e14c316ee05fdde1d49907808debb991178a4e3643907e0"
 
 [[package]]
 name = "ld2410c_stm32f411re"
